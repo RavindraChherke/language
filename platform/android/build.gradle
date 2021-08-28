@@ -1,0 +1,8 @@
+android {
+    bundle {
+        language {
+            // We want to be able to switch the locale at runtime using AppLocale!
+            enableSplit = false
+        }
+    }
+}
